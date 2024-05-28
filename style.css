@@ -1,0 +1,225 @@
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.backgrond {
+    background-color: #ececec;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+header {
+    background-color: #fff;
+
+}
+p{
+    margin: 0px !important; 
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.font-bold {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+.font-bold span {
+    padding-right: 5px;
+}
+
+.color-r {
+    color: #e74180;
+}
+
+.dark-text {
+    color: #666;
+}
+
+.nav-icon {
+    padding: 5px 8px 0 0;
+    font-size: 25px;
+}
+
+.search input {
+    font-size: 16px;
+    padding: 4px;
+    background-color: #ececec;
+    border: none;
+}
+
+.search input::placeholder {
+    font-size: 16px;
+    padding: 4px 6px;
+    color: #999;
+}
+
+.nav-btn button {
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+
+.nav-btn-one {
+    background-color: #e74180;
+    margin-left: .6rem;
+}
+
+
+.nav-btn-one i {
+    color: #fff;
+}
+
+/* Advertisements */
+.Advertisements-img{
+    gap: 10px 20px;
+}
+.banner {
+    padding: 10px 0;
+}
+.Advertisements{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.Advertisements-text{
+    padding-top: 25px;
+}
+
+.Customers{
+    background-color: #e6e4e4;
+}
+
+.Products{
+    padding-top: 40px;
+}
+
+.Products-title{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.Products-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+}
+
+.card{
+    width: 15%;
+    margin: 0 6px 0 6px ;
+    min-width: 150px !important;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.btn-card{
+    border: 1px black solid;
+    padding: .3rem;
+
+}
+
+.img-two{
+    padding-top: 1rem;
+}
+.card-body{
+    min-width: 60px !important;
+}
+.f-ax{
+    gap: 10px 20px;
+}
+.f-ax-item{
+    width: 45%;
+    min-width: 300px;
+
+}
+.button{
+    background-color: #d6d6d6;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: #4c4c4c;
+    color: white;
+}
+.more-button:hover .button{
+    background-color: #4c4c4c;
+    color: white;
+}
+.more-button{
+    border-radius: 20px;
+    background-color: #d6d6d6;
+    transition: 0.5s;
+}
+.more-button:hover{
+    background-color: #4c4c4c;
+}
+.arrow-svg{
+    background-color: purple;
+    border-radius: 60%;
+}
+.tozihat{
+    margin-top: 10px;
+    transition: 0.7s;
+    margin-bottom: 30px !important;
+}
+.tozihat:hover {
+    transform: translate(0px,-10px);
+}
+
+.btn-card-footer{
+    border-radius: 20px;
+    border: 3px solid white;
+    transition: 0.5s;
+    background-color: white;
+    transform: translate(0px,10px);
+    
+
+}
+.btn-card-footer:hover{
+    background-color: rgb(118, 0, 118);
+    color: white;
+    border: 3px dotted rgb(169, 0, 169);
+}
+.span-off{
+    background-color: rgb(143, 0, 143);
+    color: white;
+}
+/*footer*/
+.footer-box{
+    background-color: #f1f1f1;
+    min-width: 130px;
+    max-width: 160px;
+    border-radius: 9px;
+}
+footer{
+    background-color: #ffffff;
+}
+.footer{
+    gap: 30px;
+}
+.phone-number{
+    color: rgb(156, 1, 156);
+}
+.part-2-footer{
+    gap: 30px;
+}
+.mtn-footer{
+    max-width: 400px;
+    min-width: 300px;
+}
+.logo-footer{
+    width: 100px;
+}
