@@ -7,10 +7,10 @@
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
     <title>shop</title>
 
 </head>
@@ -19,14 +19,14 @@
     <!-- header start -->
     <header class="header">
         <nav>
-            <div class="container">
+            <div>
                 <!-- up header start -->
-                <section class="nan-one">
+                <section class="nan-one container">
 
 
                     <div class="navbar d-flex align-items-center justify-content-center">
                         <!-- right up header start-->
-                        <div class="logo w-25 d-flex ">
+                        <div class="logo w-25 d-flex right-up-header">
                             <div class="logo-img d-flex justify-content-center align-items-center">
                                 <img class="img-fluid" src="img/logo-2.png" alt="">
                             </div>
@@ -55,21 +55,17 @@
                 <!-- up header end -->
                 <!-- down header start -->
                 <section class="nan-two">
-                    <div class="navbar">
-                        <div class="parts-web w-50 d-flex justify-content-start align-items-center">
-                            <div class="w-75 d-flex align-items-center justify-content-around">
-                                <div class="gruoping"><i class="p-2 fa fa-align-justify"></i>دستع بنذب مخصولات</div>
-                                <div class="home"><i class="p-1 fa fa-home"></i> خانه</div>
-                                <div class="weblog"><i class="p-1 fa fa-fort-awesome"></i>وبلاگ</div>
-                                <div class="abuot-web">درباره ما</div>
+                    <div class="d-flex align-items-center justify-content-around flex-wrap">
+                        <div class="d-flex justify-content-start align-items-center ">
+                            <div class="w-100 d-flex gap-3 align-items-center justify-content-around">
+                                <div style="white-space: no-wrap;" class="home"><i class="p-1 fa fa-home"></i> خانه</div>
+                                <div style="white-space: no-wrap;" class="weblog"><i class="p-1 fa fa-fort-awesome"></i>وبلاگ</div>
+                                <div style="white-space: no-wrap;" class="abuot-web">درباره ما</div>
                             </div>
                         </div>
-                        <div class="gift w-50 d-flex d-flex justify-content-end align-items-center">
-                            <div class="w-75 d-flex align-items-center justify-content-around">
-                                <p class="color-r font-bold">هدایای پرطرفدار:</p>
-                                <p class="font-bold">هدیه شرکتی</p>
-                                <p class="font-bold">هدیه نوروزی</p>
-                                <p class="font-bold">هدیه یلدا</p>
+                        <div class=" left-down-header">
+                            <div class=" d-flex align-items-center justify-content-around">
+                                <p class="color-r font-bold">هدایای پرطرفدار: <span class="text-dark fs-5">هدایا شرکتی</span> <span class="text-dark fs-5">ولکام پکیج</span> <span class="text-dark fs-5">هدیه نوروزی</span></p>
                             </div>
                         </div>
                     </div>
@@ -548,24 +544,24 @@
             <!-- four advertisements start -->
             <div class="d-flex flex-column f-ax">
                 <!-- up advertisements -->
-                <div class="container d-flex flex-row f-ax mt-4 justify-content-around align-items-center flex-wrap">
+                <div class=" d-flex flex-row f-ax mt-4 justify-content-around align-items-center flex-wrap">
                     <!-- ad1 -->
-                    <div class=" f-ax-item flex-grow-1   mt-4">
+                    <div class="col-12 col-md-5 mt-4">
                         <img class="w-100 rounded-3" src="./img/girl.webp" alt="">
                     </div>
                     <!-- ad2 -->
-                    <div class=" f-ax-item flex-grow-1  mt-4">
+                    <div class="col-12 col-md-5 mt-4">
                         <img class="w-100 rounded-3" src="./img/pet3.webp" alt="">
                     </div>
                 </div>
                 <!-- down advertisements -->
-                <div class="container d-flex flex-row f-ax justify-content-around align-items-center flex-wrap">
+                <div class="d-flex flex-row justify-content-around align-items-center flex-wrap">
                     <!-- ad3 -->
-                    <div class="f-ax-item flex-grow-1  mt-4">
+                    <div class="col-12 col-md-5  mt-4">
                         <img class="w-100 rounded-3" src="./img/boy.webp" alt="">
                     </div>
                     <!-- ad4 -->
-                    <div class="f-ax-item flex-grow-1  mt-4">
+                    <div class="col-12 col-md-5  mt-4">
                         <img class="w-100 rounded-3" src="./img/my-self.webp" alt="">
                     </div>
                 </div>
